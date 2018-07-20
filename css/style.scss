@@ -236,8 +236,10 @@ body, html {
       padding: 0 15px;
       font-size: 16px;
       margin: auto;
+      background: #fff;
       box-sizing: content-box;
       cursor: pointer;
+      option { background: #f7f7f7; }
    }
    .start {
       transition: transform .3s;
