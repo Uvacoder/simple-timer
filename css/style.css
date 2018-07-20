@@ -250,4 +250,13 @@ body, html {
   color: #FF4E55;
   border: 1px solid #FF4E55; }
 
+@media screen and (max-width: 410px) {
+  .timer-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0; }
+
+  .show-times {
+    transform: translateY(235px); } }
+
 /*# sourceMappingURL=style.css.map */
