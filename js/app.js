@@ -146,6 +146,7 @@ start.addEventListener('click', () => {
    }
 });
 
+// Clear records and update UI
 clearRecords.addEventListener('click', () => {
    let recordsArray = getSavedRecords();
    recordsArray.forEach(record => {

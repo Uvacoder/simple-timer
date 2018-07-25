@@ -226,6 +226,7 @@ body, html {
    }
    select {
       @include boxShadow;
+      -webkit-appearance: none;
       font-family: 'Quicksand';
       display: block;
       outline: none;

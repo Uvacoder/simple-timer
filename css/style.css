@@ -202,6 +202,7 @@ body, html {
         font-weight: bold; }
   .timer-container select {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    -webkit-appearance: none;
     font-family: 'Quicksand';
     display: block;
     outline: none;
