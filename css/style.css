@@ -32,7 +32,7 @@ body, html {
   z-index: 2; }
 
 .records {
-  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
   color: #000;
   visibility: hidden;
   opacity: 0;
@@ -94,7 +94,7 @@ body, html {
   .records .uncategorized {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../media/entertain.jpg"); }
   .records .record-container {
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
     width: 85%;
     height: 65px;
     border-radius: 5px;
@@ -126,7 +126,7 @@ body, html {
   transform: translateY(205px); }
 
 .timer-container {
-  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
   width: 375px;
   height: 580px;
   background: #fff;
@@ -137,10 +137,11 @@ body, html {
   grid-template-columns: 1fr;
   grid-template-rows: 1.2fr .4fr .8fr; }
   .timer-container .logo-container {
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
     width: 110px;
     height: 35px;
     box-sizing: border-box;
+    border-top: none;
     position: absolute;
     top: 0;
     left: calc(50% - 55px);
@@ -167,7 +168,7 @@ body, html {
     align-items: center;
     justify-content: center; }
     .timer-container .minutes-container .decrement, .timer-container .minutes-container .increment {
-      box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
       float: left;
       width: 35px;
       height: 35px;
@@ -176,7 +177,7 @@ body, html {
       line-height: 35px;
       cursor: pointer; }
     .timer-container .minutes-container .minutes {
-      box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
       width: 150px;
       height: 150px;
       float: left;
@@ -200,7 +201,7 @@ body, html {
         color: #000;
         font-weight: bold; }
   .timer-container select {
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
     -webkit-appearance: none;
     font-family: 'Quicksand';
     display: block;
